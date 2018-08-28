@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instru
 x-kinRank: "8"
 x-alexaRank: "367"
 tags: Features
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/instructure/apis.md
 specificationVersion: "0.14"
 apis:
@@ -155,6 +155,45 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/instructure/coursescourse-idfeaturesflagsfeature-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/instructure/coursescourse-idfeaturesflagsfeature-put-openapi.md
+- name: Instructure Canvas Courses API - Set feature flag
+  x-api-slug: coursescourse-idfeaturesflagsfeature-put
+  description: Set feature flag.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/instructure/coursescourse-idfeaturesflagsfeature-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/instructure/coursescourse-idfeaturesflagsfeature-put-openapi.md
+- name: Instructure Canvas Courses API - Get feature flag
+  x-api-slug: coursescourse-idfeaturesflagsfeature-get
+  description: Get feature flag.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/instructure/coursescourse-idfeaturesflagsfeature-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/instructure/coursescourse-idfeaturesflagsfeature-get-openapi.md
+- name: Instructure Canvas Courses API - Remove feature flag
+  x-api-slug: coursescourse-idfeaturesflagsfeature-delete
+  description: Remove feature flag.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/instructure/coursescourse-idfeaturesflagsfeature-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/instructure/coursescourse-idfeaturesflagsfeature-delete-openapi.md
 - name: Instructure Canvas Users API - List features
   x-api-slug: usersuser-idfeatures-get
   description: List features.
@@ -298,6 +337,45 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/instructure/usersuser-idfeaturesflagsfeature-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/instructure/usersuser-idfeaturesflagsfeature-put-openapi.md
+- name: Instructure Canvas Users API - Set feature flag
+  x-api-slug: usersuser-idfeaturesflagsfeature-put
+  description: Set feature flag.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/instructure/usersuser-idfeaturesflagsfeature-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/instructure/usersuser-idfeaturesflagsfeature-put-openapi.md
+- name: Instructure Canvas Users API - Get feature flag
+  x-api-slug: usersuser-idfeaturesflagsfeature-get
+  description: Get feature flag.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/instructure/usersuser-idfeaturesflagsfeature-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/instructure/usersuser-idfeaturesflagsfeature-get-openapi.md
+- name: Instructure Canvas Users API - Remove feature flag
+  x-api-slug: usersuser-idfeaturesflagsfeature-delete
+  description: Remove feature flag.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/instructure/usersuser-idfeaturesflagsfeature-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/instructure/usersuser-idfeaturesflagsfeature-delete-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://instagram.api.gallery.streamdata.io

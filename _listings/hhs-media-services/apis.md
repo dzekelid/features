@@ -8,11 +8,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Features
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/hhs-media-services/apis.md
 specificationVersion: "0.14"
 apis:
+- name: HHS Media Services - Get the list of featured content in the syndication system
+  x-api-slug: resourcesmediafeatured-json-get
+  description: Get the list of featured content in the syndication system
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hhs-media-services.png
+  humanURL: https://api.digitalmedia.hhs.gov/
+  baseURL: https://api.digitalmedia.hhs.gov//api/v2
+  tags: Media, API Provider, Videos, Profiles
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/hhs-media-services/resourcesmediafeatured-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/hhs-media-services/resourcesmediafeatured-json-get-openapi.md
 - name: HHS Media Services - Get the list of featured content in the syndication system
   x-api-slug: resourcesmediafeatured-json-get
   description: Get the list of featured content in the syndication system

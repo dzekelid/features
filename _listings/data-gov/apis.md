@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Features
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/data-gov/apis.md
 specificationVersion: "0.14"
 apis:
@@ -43,6 +43,28 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/data-gov/datasetsdatasetfeatured-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/data-gov/datasetsdatasetfeatured-post-openapi.md
+- name: Data.gov API - Delete Reuses Reuse Featured
+  x-api-slug: reusesreusefeatured-delete
+  description: Unmark a reuse as featured
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/data-gov/reusesreusefeatured-delete-openapi.md
+- name: Data.gov API - Add Reuses Reuse Featured
+  x-api-slug: reusesreusefeatured-post
+  description: Mark a reuse as featured
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/data-gov/reusesreusefeatured-post-openapi.md
 - name: Data.gov API - Delete Datasets Dataset Featured
   x-api-slug: datasetsdatasetfeatured-delete
   description: Unmark the dataset as featured
@@ -69,6 +91,76 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/data-gov/datasetsdatasetfeatured-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/data-gov/datasetsdatasetfeatured-post-openapi.md
+- name: Data.gov API - Delete Reuses Reuse Featured
+  x-api-slug: reusesreusefeatured-delete
+  description: Unmark a reuse as featured
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/data-gov/reusesreusefeatured-delete-openapi.md
+- name: Data.gov API - Add Reuses Reuse Featured
+  x-api-slug: reusesreusefeatured-post
+  description: Mark a reuse as featured
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/data-gov/reusesreusefeatured-post-openapi.md
+- name: Data.gov API - Delete Datasets Dataset Featured
+  x-api-slug: datasetsdatasetfeatured-delete
+  description: Unmark the dataset as featured
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/data-gov/datasetsdatasetfeatured-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/data-gov/datasetsdatasetfeatured-delete-openapi.md
+- name: Data.gov API - Add Datasets Dataset Featured
+  x-api-slug: datasetsdatasetfeatured-post
+  description: Mark the dataset as featured
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/data-gov/datasetsdatasetfeatured-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/data-gov/datasetsdatasetfeatured-post-openapi.md
+- name: Data.gov API - Delete Reuses Reuse Featured
+  x-api-slug: reusesreusefeatured-delete
+  description: Unmark a reuse as featured
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/data-gov/reusesreusefeatured-delete-openapi.md
+- name: Data.gov API - Add Reuses Reuse Featured
+  x-api-slug: reusesreusefeatured-post
+  description: Mark a reuse as featured
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/data-gov/reusesreusefeatured-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://danske.bank.api.gallery.streamdata.io

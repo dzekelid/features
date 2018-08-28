@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: BC Geographical Names
 x-complete: 1
@@ -20,6 +19,59 @@ produces:
 consumes:
 - application/json
 paths:
+  /features/{featureId}:
+    get:
+      summary: Get a feature by its featureId
+      description: Get information about the geographical feature with the specified
+        featureId.
+      operationId: get-information-about-the-geographical-feature-with-the-specified-featureid-
+      x-api-path-slug: featuresfeatureid-get
+      parameters:
+      - in: path
+        name: featureId
+        description: The unique identifier for a feature
+      responses:
+        200:
+          description: OK
+      tags:
+      - Features
+      - FeatureId
+  /featureCategories:
+    get:
+      summary: Get all feature categories
+      description: 'Gets a list of all feature categories used by the BC Geographical
+        Names Information System (BCGNIS).  Note: there are three levels of classification
+        in the BCGNIS feature taxonomy: classes, categories and types.  A type is
+        a subset of a category, and a category is a subset of a class.'
+      operationId: gets-a-list-of-all-feature-categories-used-by-the-bc-geographical-names-information-system-bcgnis---
+      x-api-path-slug: featurecategories-get
+      parameters:
+      - in: query
+        name: outputFormat
+        description: The format of the output
+      responses:
+        200:
+          description: OK
+      tags:
+      - FeatureCategories
+  /featureClasses:
+    get:
+      summary: Get all feature classes
+      description: 'Gets a list of all feature classes used by the BC Geographical
+        Names Information System (BCGNIS).  Note: there are three levels of classification
+        in the BCGNIS feature taxonomy: classes, categories and types.  A type is
+        a subset of a category, and a category is a subset of a class.'
+      operationId: gets-a-list-of-all-feature-classes-used-by-the-bc-geographical-names-information-system-bcgnis---not
+      x-api-path-slug: featureclasses-get
+      parameters:
+      - in: query
+        name: outputFormat
+        description: The format of the output
+      responses:
+        200:
+          description: OK
+      tags:
+      - FeatureClasses
   /geomarks/{geomarkId}/feature.{fileFormatExtension}:
     get:
       summary: Get the feature and attribution of the geomark
@@ -51,4 +103,3 @@ paths:
       - GeomarkId
       - Feature
       - FileFormatExtension
----

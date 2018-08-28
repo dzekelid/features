@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Features
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/bc-geographical-names/apis.md
 specificationVersion: "0.14"
 apis:
@@ -110,6 +110,65 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/bc-geographical-names/featuresfeatureid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/bc-geographical-names/featuresfeatureid-get-openapi.md
+- name: BC Geographical Names - Get all feature categories
+  x-api-slug: featurecategories-get
+  description: 'Gets a list of all feature categories used by the BC Geographical
+    Names Information System (BCGNIS).  Note: there are three levels of classification
+    in the BCGNIS feature taxonomy: classes, categories and types.  A type is a subset
+    of a category, and a category is a subset of a class.'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/british-columbia.png
+  humanURL: https://apps.gov.bc.ca/pub/bcgnws/
+  baseURL: https://apps.gov.bc.ca//pub/bcgnws
+  tags: Geo, Geography, Locations, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/bc-geographical-names/featurecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/bc-geographical-names/featurecategories-get-openapi.md
+- name: BC Geographical Names - Get all feature classes
+  x-api-slug: featureclasses-get
+  description: 'Gets a list of all feature classes used by the BC Geographical Names
+    Information System (BCGNIS).  Note: there are three levels of classification in
+    the BCGNIS feature taxonomy: classes, categories and types.  A type is a subset
+    of a category, and a category is a subset of a class.'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/british-columbia.png
+  humanURL: https://apps.gov.bc.ca/pub/bcgnws/
+  baseURL: https://apps.gov.bc.ca//pub/bcgnws
+  tags: Geo, Geography, Locations, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/bc-geographical-names/featureclasses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/bc-geographical-names/featureclasses-get-openapi.md
+- name: BC Geographical Names - Get a feature by its featureId
+  x-api-slug: featuresfeatureid-get
+  description: Get information about the geographical feature with the specified featureId.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/british-columbia.png
+  humanURL: https://apps.gov.bc.ca/pub/bcgnws/
+  baseURL: https://apps.gov.bc.ca//pub/bcgnws
+  tags: Geo, Geography, Locations, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/bc-geographical-names/featuresfeatureid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/bc-geographical-names/featuresfeatureid-get-openapi.md
+- name: Geo Mark Web Service - Get the feature and attribution of the geomark
+  x-api-slug: geomarksgeomarkidfeature-fileformatextension-get
+  description: The geomark feature resource returns a single spatial feature with
+    either a single (Point, LineString, Polygon) or multi-part geometry (MultiPoint,
+    MultiLineString, MultiPolygon) and the geomark attribution.  The geometry and
+    attribution can be downloaded as a spatial download file format in a supported
+    coordinate system. The download files can then be used in a desktop GIS application
+    (e.g. ArcMap), Google Earth or a web mapping application.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/british-columbia.png
+  humanURL: https://apps.gov.bc.ca/pub/bcgnws/
+  baseURL: https://apps.gov.bc.ca//pub/geomark
+  tags: Geo, Geography, Locations, API Provider, Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/bc-geographical-names/geomarksgeomarkidfeature-fileformatextension-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/bc-geographical-names/geomarksgeomarkidfeature-fileformatextension-get-openapi.md
 - name: Geo Mark Web Service - Get the feature and attribution of the geomark
   x-api-slug: geomarksgeomarkidfeature-fileformatextension-get
   description: The geomark feature resource returns a single spatial feature with

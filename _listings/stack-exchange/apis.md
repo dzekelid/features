@@ -9,11 +9,31 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-
 x-kinRank: "8"
 x-alexaRank: "126"
 tags: Features
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/stack-exchange/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Stack Exchange - Get User Questions Featured
+  x-api-slug: usersidsquestionsfeatured-get
+  description: "Gets the questions on which the users in {ids} have active bounties.\n
+    \n{ids} can contain up to 100 semicolon delimited ids, to find ids programatically
+    look for user_id on user or shallow_user objects.\n \nThe sorts accepted by this
+    method operate on the follow fields of the question object:\n - activity - last_activity_date\n
+    - creation - creation_date\n - votes - score\n  activity is the default sort.\n
+    \n It is possible to create moderately complex queries using sort, min, max, fromdate,
+    and todate.\n \nThis method returns a list of questions."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
+  humanURL: http://stackexchange.com
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
+    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/stack-exchange/usersidsquestionsfeatured-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/stack-exchange/usersidsquestionsfeatured-get-openapi.md
 - name: Stack Exchange - Get User Questions Featured
   x-api-slug: usersidsquestionsfeatured-get
   description: "Gets the questions on which the users in {ids} have active bounties.\n

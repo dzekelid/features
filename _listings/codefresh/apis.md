@@ -9,11 +9,21 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-code
 x-kinRank: "7"
 x-alexaRank: "240033"
 tags: Features
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/codefresh/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Codefresh API - Get Features Accountid
+  x-api-slug: featuresaccountid-get
+  description: Get features accountid.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/codefresh/featuresaccountid-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://code.gov.api.gallery.streamdata.io

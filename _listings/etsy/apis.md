@@ -6,11 +6,110 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.j
 x-kinRank: "9"
 x-alexaRank: "187"
 tags: Features
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Etsy - Get Homepages Pickers Featured Listing Picker
+  x-api-slug: homepagespickersfeatured-listing-picker-id-get
+  description: Retrieves a FeaturedListingPicker by id.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/homepagespickersfeatured-listing-picker-id-get-openapi.md
+- name: Etsy - Get Homepages Pickers Featured Listing Picker Featured
+  x-api-slug: homepagespickersfeatured-listing-picker-idfeatured-get
+  description: Retrieves a set of FeaturedListing objects associated to a FeaturedListingPicker.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/homepagespickersfeatured-listing-picker-idfeatured-get-openapi.md
+- name: Etsy - Get Homepages Pickers Featured Listing Picker Listings
+  x-api-slug: homepagespickersfeatured-listing-picker-idlistings-get
+  description: Retrieves a set of Listing objects associated to a FeaturedListingPicker.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/homepagespickersfeatured-listing-picker-idlistings-get-openapi.md
+- name: Etsy - Get Homepages Pickers Featured Listing Picker Listings Active
+  x-api-slug: homepagespickersfeatured-listing-picker-idlistingsactive-get
+  description: Retrieves a set of Listing objects associated to a FeaturedListingPicker
+    in scope active.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/homepagespickersfeatured-listing-picker-idlistingsactive-get-openapi.md
+- name: Etsy - Get Homepages Listings Featured Listing
+  x-api-slug: homepageslistingsfeatured-listing-id-get
+  description: Retrieves a FeaturedListing by id.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/homepageslistingsfeatured-listing-id-get-openapi.md
+- name: Etsy - Get Homepages Listings Featured Listing Picker
+  x-api-slug: homepageslistingsfeatured-listing-idpicker-get
+  description: Retrieves a set of FeaturedListingPicker objects associated to a FeaturedListing.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/homepageslistingsfeatured-listing-idpicker-get-openapi.md
+- name: Etsy - Get Homepages Listings Featured Listing Listing
+  x-api-slug: homepageslistingsfeatured-listing-idlisting-get
+  description: Retrieves a set of Listing objects associated to a FeaturedListing.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/homepageslistingsfeatured-listing-idlisting-get-openapi.md
 - name: Etsy - Get Shops Shop Listings Featured
   x-api-slug: shopsshop-idlistingsfeatured-get
   description: Retrieves Listings associated to a Shop that are featured
@@ -27,6 +126,133 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/shopsshop-idlistingsfeatured-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/shopsshop-idlistingsfeatured-get-openapi.md
+- name: Etsy - Get Featured Users
+  x-api-slug: featuredusers-get
+  description: Finds all FeaturedUser.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/featuredusers-get-openapi.md
+- name: Etsy - Get Featured Users Featured User
+  x-api-slug: featuredusersfeatured-user-id-get
+  description: Retrieves a FeaturedUser by id.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/featuredusersfeatured-user-id-get-openapi.md
+- name: Etsy - Get Homepages Pickers Featured Listing Picker
+  x-api-slug: homepagespickersfeatured-listing-picker-id-get
+  description: Retrieves a FeaturedListingPicker by id.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/homepagespickersfeatured-listing-picker-id-get-openapi.md
+- name: Etsy - Get Homepages Pickers Featured Listing Picker Featured
+  x-api-slug: homepagespickersfeatured-listing-picker-idfeatured-get
+  description: Retrieves a set of FeaturedListing objects associated to a FeaturedListingPicker.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/homepagespickersfeatured-listing-picker-idfeatured-get-openapi.md
+- name: Etsy - Get Homepages Pickers Featured Listing Picker Listings
+  x-api-slug: homepagespickersfeatured-listing-picker-idlistings-get
+  description: Retrieves a set of Listing objects associated to a FeaturedListingPicker.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/homepagespickersfeatured-listing-picker-idlistings-get-openapi.md
+- name: Etsy - Get Homepages Pickers Featured Listing Picker Listings Active
+  x-api-slug: homepagespickersfeatured-listing-picker-idlistingsactive-get
+  description: Retrieves a set of Listing objects associated to a FeaturedListingPicker
+    in scope active.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/homepagespickersfeatured-listing-picker-idlistingsactive-get-openapi.md
+- name: Etsy - Get Homepages Listings Featured Listing
+  x-api-slug: homepageslistingsfeatured-listing-id-get
+  description: Retrieves a FeaturedListing by id.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/homepageslistingsfeatured-listing-id-get-openapi.md
+- name: Etsy - Get Homepages Listings Featured Listing Picker
+  x-api-slug: homepageslistingsfeatured-listing-idpicker-get
+  description: Retrieves a set of FeaturedListingPicker objects associated to a FeaturedListing.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/homepageslistingsfeatured-listing-idpicker-get-openapi.md
+- name: Etsy - Get Homepages Listings Featured Listing Listing
+  x-api-slug: homepageslistingsfeatured-listing-idlisting-get
+  description: Retrieves a set of Listing objects associated to a FeaturedListing.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/homepageslistingsfeatured-listing-idlisting-get-openapi.md
 - name: Etsy - Get Shops Shop Listings Featured
   x-api-slug: shopsshop-idlistingsfeatured-get
   description: Retrieves Listings associated to a Shop that are featured
@@ -43,6 +269,177 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/shopsshop-idlistingsfeatured-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/shopsshop-idlistingsfeatured-get-openapi.md
+- name: Etsy - Get Featured Users
+  x-api-slug: featuredusers-get
+  description: Finds all FeaturedUser.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/featuredusers-get-openapi.md
+- name: Etsy - Get Featured Users Featured User
+  x-api-slug: featuredusersfeatured-user-id-get
+  description: Retrieves a FeaturedUser by id.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/featuredusersfeatured-user-id-get-openapi.md
+- name: Etsy - Get Featured Users Featured User
+  x-api-slug: featuredusersfeatured-user-id-get
+  description: Retrieves a FeaturedUser by id.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/featuredusersfeatured-user-id-get-openapi.md
+- name: Etsy - Get Featured Users
+  x-api-slug: featuredusers-get
+  description: Finds all FeaturedUser.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/featuredusers-get-openapi.md
+- name: Etsy - Get Shops Shop Listings Featured
+  x-api-slug: shopsshop-idlistingsfeatured-get
+  description: Retrieves Listings associated to a Shop that are featured
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/shopsshop-idlistingsfeatured-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/shopsshop-idlistingsfeatured-get-openapi.md
+- name: Etsy - Get Homepages Listings Featured Listing Listing
+  x-api-slug: homepageslistingsfeatured-listing-idlisting-get
+  description: Retrieves a set of Listing objects associated to a FeaturedListing.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/homepageslistingsfeatured-listing-idlisting-get-openapi.md
+- name: Etsy - Get Homepages Listings Featured Listing Picker
+  x-api-slug: homepageslistingsfeatured-listing-idpicker-get
+  description: Retrieves a set of FeaturedListingPicker objects associated to a FeaturedListing.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/homepageslistingsfeatured-listing-idpicker-get-openapi.md
+- name: Etsy - Get Homepages Listings Featured Listing
+  x-api-slug: homepageslistingsfeatured-listing-id-get
+  description: Retrieves a FeaturedListing by id.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/homepageslistingsfeatured-listing-id-get-openapi.md
+- name: Etsy - Get Homepages Pickers Featured Listing Picker Listings Active
+  x-api-slug: homepagespickersfeatured-listing-picker-idlistingsactive-get
+  description: Retrieves a set of Listing objects associated to a FeaturedListingPicker
+    in scope active.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/homepagespickersfeatured-listing-picker-idlistingsactive-get-openapi.md
+- name: Etsy - Get Homepages Pickers Featured Listing Picker Listings
+  x-api-slug: homepagespickersfeatured-listing-picker-idlistings-get
+  description: Retrieves a set of Listing objects associated to a FeaturedListingPicker.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/homepagespickersfeatured-listing-picker-idlistings-get-openapi.md
+- name: Etsy - Get Homepages Pickers Featured Listing Picker Featured
+  x-api-slug: homepagespickersfeatured-listing-picker-idfeatured-get
+  description: Retrieves a set of FeaturedListing objects associated to a FeaturedListingPicker.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/homepagespickersfeatured-listing-picker-idfeatured-get-openapi.md
+- name: Etsy - Get Homepages Pickers Featured Listing Picker
+  x-api-slug: homepagespickersfeatured-listing-picker-id-get
+  description: Retrieves a FeaturedListingPicker by id.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/etsy/homepagespickersfeatured-listing-picker-id-get-openapi.md
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apisdef/etsy.json

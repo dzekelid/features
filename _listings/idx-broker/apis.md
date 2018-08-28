@@ -10,8 +10,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Features
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/idx-broker/apis.md
 specificationVersion: "0.14"
 apis:
@@ -101,6 +101,153 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/idx-broker/partnersaggregatedfeatured-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
+- name: IDX API 1.4.0 Test Runner - Get Listing Approved MLS Featuredid
+  x-api-slug: clientslistingapprovedmlsfeaturedid-get
+  description: Returns the detailed information for a given listingID.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/idx-broker/clientslistingapprovedmlsfeaturedid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/idx-broker/clientslistingapprovedmlsfeaturedid-get-openapi.md
+- name: IDX API 1.4.0 Test Runner - Get Partners Aggregated Featured
+  x-api-slug: partnersaggregatedfeatured-get
+  description: Get a list of featured MLS properties.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/idx-broker/partnersaggregatedfeatured-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
+- name: IDX API 1.4.0 Test Runner - Get Partners Aggregated Featured
+  x-api-slug: partnersaggregatedfeatured-get
+  description: Get a list of featured MLS properties.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/idx-broker/partnersaggregatedfeatured-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
+- name: IDX API 1.4.0 Test Runner - Get Partners Aggregated Featured
+  x-api-slug: partnersaggregatedfeatured-get
+  description: Get a list of featured MLS properties.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/idx-broker/partnersaggregatedfeatured-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/idx-broker/partnersaggregatedfeatured-get-openapi.md
+- name: IDX API 1.4.0 Test Runner - Get List Allowed Fields Approved MLS Featured
+  x-api-slug: clientslistallowedfieldsapprovedmlsfeaturedid-get
+  description: Returns the allowed returnable fields for a given listingID.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/idx-broker/clientslistallowedfieldsapprovedmlsfeaturedid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/idx-broker/clientslistallowedfieldsapprovedmlsfeaturedid-get-openapi.md
+- name: IDX API 1.4.0 Test Runner - Get List Allowed Fields Approved MLS Featured
+  x-api-slug: clientslistallowedfieldsapprovedmlsfeaturedid-get
+  description: Returns the allowed returnable fields for a given listingID.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/idx-broker/clientslistallowedfieldsapprovedmlsfeaturedid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/idx-broker/clientslistallowedfieldsapprovedmlsfeaturedid-get-openapi.md
+- name: IDX API 1.4.0 Test Runner - Get List Allowed Fields Approved MLS Featured
+  x-api-slug: clientslistallowedfieldsapprovedmlsfeaturedid-get
+  description: Returns the allowed returnable fields for a given listingID.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/idx-broker/clientslistallowedfieldsapprovedmlsfeaturedid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/idx-broker/clientslistallowedfieldsapprovedmlsfeaturedid-get-openapi.md
+- name: IDX API 1.4.0 Test Runner - Get Featured
+  x-api-slug: clientsfeatured-get
+  description: Returns a basic set of information for all of the client's featured
+    (active) properties
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/idx-broker/clientsfeatured-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/idx-broker/clientsfeatured-get-openapi.md
+- name: IDX API 1.4.0 Test Runner - Get Featured
+  x-api-slug: clientsfeatured-get
+  description: Returns a basic set of information for all of the client's featured
+    (active) properties
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/idx-broker/clientsfeatured-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/idx-broker/clientsfeatured-get-openapi.md
+- name: IDX API 1.4.0 Test Runner - Get Featured
+  x-api-slug: clientsfeatured-get
+  description: Returns a basic set of information for all of the client's featured
+    (active) properties
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/idx-broker/clientsfeatured-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/idx-broker/clientsfeatured-get-openapi.md
+- name: IDX API 1.4.0 Test Runner - Get Listing Approved MLS Featuredid
+  x-api-slug: clientslistingapprovedmlsfeaturedid-get
+  description: Returns the detailed information for a given listingID.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/idx-broker/clientslistingapprovedmlsfeaturedid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/idx-broker/clientslistingapprovedmlsfeaturedid-get-openapi.md
+- name: IDX API 1.4.0 Test Runner - Get Listing Approved MLS Featuredid
+  x-api-slug: clientslistingapprovedmlsfeaturedid-get
+  description: Returns the detailed information for a given listingID.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png
+  humanURL: http://www.idxbroker.com
+  baseURL: https://example.com//
+  tags: Real Estate, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/idx-broker/clientslistingapprovedmlsfeaturedid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/features/master/_listings/idx-broker/clientslistingapprovedmlsfeaturedid-get-openapi.md
 - name: IDX API 1.4.0 Test Runner - Get Listing Approved MLS Featuredid
   x-api-slug: clientslistingapprovedmlsfeaturedid-get
   description: Returns the detailed information for a given listingID.
